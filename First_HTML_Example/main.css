@@ -1,0 +1,51 @@
+/* Sidebar menu */
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: blue;
+    overflow-x: hidden; /* disable scrolling */
+    padding-top: 15px;
+    font-family: 'Calibri';
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: lightgray;
+}
+
+.body-content {
+    color:white;
+    font-family:'Calibri';
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 160px;
+    font-size: 20px;
+}
+
+.body-content a {
+    text-decoration: none;
+    color: white;
+}
+
+.body-content a:hover {
+    color:lightgray;
+}
+
+.icon-img {
+    width: 30px;
+    height: 30px;
+}
+
+.text-align-left {
+    text-align: left;
+}
